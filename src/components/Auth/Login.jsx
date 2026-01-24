@@ -7,8 +7,13 @@ const Login = () => {
    const [password, setPassword] = useState('')
 
   const submitHandler = (e) =>{
-    e.preventDefault()
-     console.log("Hello guyss Form Submitted ")   
+    e.preventDefault() 
+    console.log("email is", email)
+    console.log("password is", password) 
+    
+    
+    setEmail("")
+    setPassword("")
 
   }
 
